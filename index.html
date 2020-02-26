@@ -10,7 +10,6 @@
     #view {
 
     }
-
 </script>
 
 <script>
@@ -23,6 +22,22 @@
             routes: routes
         }
     };
+
+    var myFirstRouter = new Router('myFirstRouter', [
+        {
+            path: '/',
+            name: 'Root'
+        },
+        {
+            path: '/about',
+            name: 'Root'
+        },
+        {
+            path: '/contact',
+            name: 'Root'
+        },
+    ]);
+    console.log(myFirstRouter);
 }
 
 </script>
